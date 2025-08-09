@@ -21,7 +21,7 @@ Which of the following commands allows you to change the nice value of a running
 
 How would you extend the list of directories, where the shell is looking for executable files, with your users `~/bin` folder? `export PATH="$PATH:~/bin`
 
-Which Environment Variable holds the language configuration for the shell? (Name only) LANG
+Which Environment Variable holds the language configuration for the shell? (Name only) `LANG`
 
 Which kill signal is send by default by the kill command? (If no other supplied) -15
 
@@ -39,7 +39,7 @@ A regex with "a*" would match all words starting with an a? F T:`a.*`
 
 Which command shows you the full path of a command (e.g. /bin/ls)? `which`
 
-Which Environment Variable holds the standard editor? EDITOR
+Which Environment Variable holds the standard editor? `EDITOR`
 
 Which command shows you printable character sequences in an Linux executable? `strings`
 
