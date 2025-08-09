@@ -70,3 +70,60 @@ How do you search for modified things in the last 1 minute in the current direct
 Which manual shows information about the Linux filesystem hierachy? (Name of the manual page only) man hier shows the description of the Linux filesystem hierachy.
 
 What kind of Kernel is the Linux one? monolithic kernel
+
+# Types of Kernels and Examples
+## 1. Monolithic Kernel
+
+Most of the OS services run in kernel space: memory management, device drivers, file systems, process management.
+
+Large and integrated kernel.
+
+Examples:
+
+Linux
+
+FreeBSD, OpenBSD, NetBSD
+
+Early Windows versions (95, 98)
+
+MS-DOS
+
+Commonly used in desktops, servers, and laptops.
+
+## 2. Microkernel
+
+Only essential services run in kernel space: IPC (inter-process communication), basic scheduling, and minimal hardware management.
+
+Other services run in user space as separate processes.
+
+Smaller and more modular kernel.
+
+Examples:
+
+QNX (real-time OS)
+
+Minix (educational OS)
+
+Mach (basis of early Mac OS X)
+
+L4 family (used in embedded and secure systems)
+
+GNU HURD (experimental)
+
+Often used in embedded systems, real-time OS, and research.
+
+## 3. Nanokernel
+
+Minimalist kernel that only handles very basic tasks like interrupt handling and context switching.
+
+Almost no OS services inside the kernel itself.
+
+Mostly used in very specialized embedded systems or minimal RTOS.
+
+Examples:
+
+TinyOS (for wireless sensor networks)
+
+Some minimal RTOS versions
+
+Designed for extremely resource-limited or specialized hardware.
