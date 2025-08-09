@@ -80,3 +80,15 @@ ____
 
 **Kernel**: The central part of the OS running in kernel space, responsible for managing hardware, processes, memory, and system calls.
 ****
+
+****
+### Kernel Modules / Subsystems
+**Kernel Module**: A piece of code that can be loaded into the kernel to add new functionality without rebooting.
+
+**Subsystem**: A part of the kernel that handles specific functions or hardware.
+
+Example in Windows:
+
+Driver: A kernel module that enables the OS to communicate and work with specific hardware or software devices.
+
+****
